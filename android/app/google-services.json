@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "259208314722",
+    "firebase_url": "https://lingvoapp-37217.firebaseio.com",
+    "project_id": "lingvoapp-37217",
+    "storage_bucket": "lingvoapp-37217.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259208314722:android:2709a94ca394b747",
+        "android_client_info": {
+          "package_name": "com.lingvoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259208314722-8lbl8qpi3gq4trqqa84d37p18feg18au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_6K7CaBlEv5vby62K33GITBRK1iVEkvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259208314722-8lbl8qpi3gq4trqqa84d37p18feg18au.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "259208314722-fcv15e9bkk9gfq1c0vptrl91qe2h5sdq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.LingvoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

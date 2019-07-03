@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>259208314722-fcv15e9bkk9gfq1c0vptrl91qe2h5sdq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.259208314722-fcv15e9bkk9gfq1c0vptrl91qe2h5sdq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDyog4lnzGllI_no6hojLsQP6_7kG2gvbo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>259208314722</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.company.LingvoApp</string>
+	<key>PROJECT_ID</key>
+	<string>lingvoapp-37217</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lingvoapp-37217.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:259208314722:ios:f4e61876d4534890</string>
+	<key>DATABASE_URL</key>
+	<string>https://lingvoapp-37217.firebaseio.com</string>
+</dict>
+</plist>

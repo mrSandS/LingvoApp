@@ -138,6 +138,8 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-vector-icons')
+    implementation project(':react-native-linear-gradient')
     implementation project(':react-native-firebase')
     // Firebase dependencies
     implementation "com.google.android.gms:play-services-base:16.1.0"

@@ -1,27 +1,29 @@
 import React from 'react';
 import screens from '@constants/screens';
 import {
-  createStackNavigator,
+  createSwitchNavigator,
   createAppContainer
 } from 'react-navigation';
-import AuthWelcomeScreen from '@screens/Auth/AuthWelcomeScreen';
-import AuthDataInputScreen from '@screens/Auth/AuthDataInputScreen';
+import AuthStackNavigator from './AuthStackNavigator';
+import MainTabNavigator from './MainTabNavigator';
+import SplashScreen from '@screens/SplashScreen';
 
 const RouteConfigs = {
-  [screens.AuthWelcome]: {
-    screen: AuthWelcomeScreen
+  [screens.Splash]: {
+    screen: SplashScreen
   },
-  [screens.AuthDataInput]: {
-    screen: AuthDataInputScreen
-  }
+  [screens.AuthStack]: {
+    screen: AuthStackNavigator
+  },
+  [screens.MainTabs]: {
+    screen: MainTabNavigator
+  },
 };
-const StackNavigatorConfig = {
-  defaultNavigationOptions: {
-    headerTransparent: true
-  }
+const SwitchNavigatorConfig = {
+  initialRouteName: screens.AuthStack
 };
 
-const AppNavigator = createStackNavigator(RouteConfigs, StackNavigatorConfig);
+const AppNavigator = createSwitchNavigator(RouteConfigs, SwitchNavigatorConfig);
 
 export default createAppContainer(AppNavigator);
 
